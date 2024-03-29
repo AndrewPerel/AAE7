@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Andrew Perel
+Date: 3/28/2024
+File Name: styles07.css
 */
 
 /* CSS Reset */
@@ -38,4 +38,12 @@ aside {
 footer {
 	font-size: .70em;
 	text-align: center;
+}
+
+
+.container {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px dotted rgb(79 185 227);
+  padding: 1%;
 }
